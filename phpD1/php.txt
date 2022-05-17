@@ -1,0 +1,27 @@
+========	PHP	===========
+-----------------------------------
+
+website  |  web application
+   \		/
+    \	       /
+     \	      /
+      \	     /
+       \    /
+	\  /
+	 \/
+   --> Front End
+   --> Back End : JAVA,C# (Desktop based software --> media player/ms office), 
+		  Python (Robotics, Machine Learning), 
+		  PHP (Hyper Text Pre Processor)
+   --> Database
+
+
+* compiler of php -> IIS (Internet information Service)
+		     AOL
+		     ZEUS
+		     Apache
+
+Class
+Property
+Method
+Object
