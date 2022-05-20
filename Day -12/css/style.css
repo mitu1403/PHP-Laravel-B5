@@ -1,0 +1,260 @@
+@font-face {
+    font-family: osw;
+    src: url("../fonts/Oswald-Regular.ttf");
+}
+nav a{
+    color: red;
+}
+.nav-logo{
+    font-family: osw;
+    font-size: 2rem;
+}
+.hero-section{
+    height: 90vh;
+    background-image: url("../img/31214.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: osw;
+}
+.hero-section h1{
+    font-size: 4.5rem;
+    font-weight: 400;
+    color: #04414d;
+    line-height: 1.1;
+}
+.hero-section a, .experience-section a{
+    letter-spacing: .1rem;
+    font-size: .9rem;
+}
+.hero-section .btn-1{
+    background-color: #adccf6 ;
+    color: #35393f ;
+}
+.hero-section .btn-2, .experience-section a{
+    background-color: #0d3872;
+    color: #eaf2fd ;
+}
+.bg-financial-advisor{background-color: #0e3e7f;}
+.bg-financial-advisor h3{
+    font-weight: 400;
+    font-size: 1.875rem;
+    line-height: 1.5;
+    font-family: osw;
+}
+.bg-financial-advisor p{
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #cdd7e5;
+    font-family: 'Open Sans', sans-serif;
+}
+.capacity-card{
+    color: #35393f;
+    background-color: #eaf2fd;
+}
+.capacity-card h2{
+    font-weight: 400;
+    font-size: 2.25rem;
+    line-height: 1.1;
+    font-family: osw;
+}
+.capacity-card p{
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #5f738d;
+    font-family: 'Open Sans', sans-serif;
+}
+.capacity-card h3{
+    font-weight: 400;
+    font-size: 1.875rem;
+    line-height: 1.2;
+    font-family: osw;
+}
+.h-300{height: 330px;}
+.h-350{height: 350px;}
+.counter-section{
+    background-image: url("../img/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    color: #c4d4ea;
+    line-height: 1.1;
+}
+.counter-section h2{
+    font-weight: 400;
+    font-size: 2.25rem;
+    font-family: osw;
+}
+.counter-section h1{
+    font-family: osw;
+}
+.counter-section p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.counter-section .counter-paragraph{
+    font-weight: normal;
+    line-height: 1.5;
+}
+.inner-bg{
+    background-color: rgba(14,62,127,0.85);
+    height: 100%;
+}
+.fs-80{font-size: 80px;}
+.fs-60{font-size: 60px;}
+.fs-30{font-size: 35px;}
+.experience-section h1{
+    font-size: 3.75rem;
+    line-height: 1.1;
+    font-weight: 400;
+    font-family: osw;
+}
+.experience-section p{
+    font-size: 1rem;
+    line-height: 1.6;
+    font-family: 'Open Sans', sans-serif;
+    color: #5f738d;
+    text-align: justify;
+}
+.bg-experience{
+    height: 500px;
+    background-image: url("../img/335003P9WNIH291min.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.experience-card {
+    margin-top: 70px;
+    padding-left: 35px;
+}
+.experience-card h1{
+    color: #c4d4ea;
+}
+.line{
+    height: 2.5px;
+    width: 40px;
+    background-color: #0e3e7f;
+}
+.line2{
+    height: 2.5px;
+    width: 80px;
+    background-color: #9cb6da;
+}
+.about-card{
+    box-shadow: 0px 0px 20px 10px lightgray;
+}
+.about-card h3{
+    font-weight: 400;
+    font-size: 1.875rem;
+    line-height: 1.2;
+    font-family: osw;
+}
+.about-card p{
+    color: #5f738d;
+    font-size: 1rem;
+    line-height: 1.6;
+    font-family: 'Open Sans', sans-serif;
+}
+.about-card .btn-border{
+    font-family: osw;
+    color: #303339;
+    letter-spacing: 1px;
+    font-size: 0.875rem;
+}
+.about-section, .info-section{
+    background-color: #eaf2fd;
+    color: #0e3e7f;
+}
+.about-section h1{
+    font-size: 3.75rem;
+    line-height: 1.1;
+    font-weight: 400;
+    font-family: osw;
+}
+.team-section{
+    background-image: url("../img/Untitled1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #c4d4ea;
+    line-height: 1.1;
+}
+.team-section h1{
+    font-size: 3.75rem;
+    font-weight: 400;
+    color: #fdfdfd;
+    font-family: osw;
+}
+.team-section p{
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #cdd7e5;
+    font-family: 'Open Sans', sans-serif;
+}
+.team-card h5{
+    color: #0e3e7f;
+    font-weight: 400;
+    line-height: 1.2;
+    font-size: 1.25;
+    font-family: osw;
+}
+.team-card h6{
+    color: #35393f;
+    line-height: 1.2;
+    font-weight: 400;
+    font-size: 1.125;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+}
+.info-section .info-col3{
+    background-image: url("../img/1092.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.info-section h3{
+    font-weight: 400;
+    font-size: 1.875rem;
+    line-height: 1.2;
+    font-family: osw;
+    color: #35393f;
+}
+.info-section p{
+    font-size: 1rem;
+    line-height: 1.6;
+    font-family: 'Open Sans', sans-serif;
+    color: #5f738d;
+}
+input, textarea{
+    border-color: #b3b3b3;
+    border-width: 1px;
+    color: #35393f;
+}
+.info-section form a{
+    background-color: #0d3872;
+    color: #eaf2fd ;
+    letter-spacing: .1rem;
+    font-size: .9rem;
+}
+.footer{
+    color: #fdfdfd;
+    background-color: #0e3e7f
+}
+.footer h3{
+    font-weight: 400;
+    font-size: 1.875;
+    line-height: 1.2;
+    font-family: osw;
+}
+.footer a{
+    color: #fdfdfd;
+}
+.footer p{
+    color: #cdd7e5;
+    font-style: italic;
+    font-size: 1rem;
+    line-height: 1.6;
+    font-family: 'Open Sans', sans-serif;
+}

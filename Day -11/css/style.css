@@ -1,0 +1,11 @@
+.h-200{height: 200px;}
+.h-50{height: 50px;}
+.h-250{height: 250px}
+.h-600{height: 100vh;}
+.h-40{height: 40px;}
+
+.myCaption{
+    background-color: rgba(0,0,0,0.9);
+    bottom: 150px;
+    padding: 20px;
+}

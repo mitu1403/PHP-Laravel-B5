@@ -1,0 +1,70 @@
+/*
+    Jokhon amra height and width dei div e.. tokhon div sudhu height and width o pay nai border and padding o
+    pay sathe....Like:
+        height = height + border + padding
+        width  = width  + border + padding
+   ejonno abar jokhon div er bhitore Padding declare kora hoy tokhon div er size oi onujai boro hote thake...mane
+   oi poriman jayga consume kore...To prevent this, we need to declare "BOX-SIZING" property.
+        box-sizing: border-box;
+   eta use korar por padding add korle seta te div er height width e change ashe na + height width er sathe extra
+   kono properties o add hoy na...
+*/
+/*
+    Grid er bhitore flex ashe...
+    Main structure ta grid diyei hoy...
+
+    Grid ??
+    Web page layout er akta technique.
+*/
+
+.divOne{
+    height: 300px;
+    width: 400px;
+    background-color: red;
+    float: left;
+    margin: 10px;
+    box-sizing: border-box;
+    padding: 100px;
+}
+.divTwo{
+    height: 330px;
+    width: 420px;
+    background-color: black;
+    float: left;
+}
+
+*{
+    box-sizing: border-box;
+}
+.col-1{width: 8.33%;}
+.col-2{width: 16.66%;}
+.col-3{width: 25%;}
+.col-4{width: 33.33%;}
+.col-5{width: 41.66%;}
+.col-6{width: 50%;}
+.col-7{width: 58.33%;}
+.col-8{width: 66.66%;}
+.col-9{width: 75%;}
+.col-10{width: 83.33%;}
+.col-11{width: 91.66%;}
+.col-12{width: 100%;}
+
+[class*='col-']{
+    float: left;
+    border: 1px solid black;
+}
+/*   or     */
+[class^='col-']{
+    float: left;
+}
+
+.row:after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.h-40{height: 40px;}
+.h-50{height: 50px;}
+.h-200{height: 200px;}
+.h-250{height: 250px;}
+.h-600{height: 600px;}

@@ -1,0 +1,193 @@
+<!--checkbox and radio er jonno form-control class lage na-->
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Day - 11</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-header">Registration Form</div>
+                        <div class="card-body">
+                            <form action="" method="">
+                                <div class="row mb-3">
+                                    <label for="firstName" class="col-md-3">First Name</label>
+                                    <div class="col-md-9">
+                                        <input type="text" name="first_name" id="firstName" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <label for="lastName" class="col-md-3">Last Name</label>
+                                    <div class="col-md-9">
+                                        <input type="text" name="last_name" id="lastName" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <label for="mail" class="col-md-3">Email</label>
+                                    <div class="col-md-9">
+                                        <input type="email" name="mail" id="mail" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <label for="pwd" class="col-md-3">Password</label>
+                                    <div class="col-md-9">
+                                        <input type="password" name="pwd" id="pwd" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <label for="mobileNumber" class="col-md-3">Mobile Number</label>
+                                    <div class="col-md-9">
+                                        <input type="number" name="mobile_number" id="mobileNumber" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <label for="dateOfBirth" class="col-md-3">Mobile Number</label>
+                                    <div class="col-md-9">
+                                        <input type="date" name="date_of_birth" id="dateOfBirth" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <label for="gender" class="col-md-3">Gender</label>
+                                    <div class="col-md-9">
+                                        <label><input type="radio" name="gender"> Male</label>
+                                        <label><input type="radio" name="gender"> Female</label>
+                                        <label><input type="radio" name="gender"> Other</label>
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <label for="district" class="col-md-3">District Name</label>
+                                    <div class="col-md-9">
+                                        <select class="form-control" name="district">
+                                            <option>-- Select District Name --</option>
+                                            <optgroup label="Dhaka">
+                                                <option value="">Dhaka1</option>
+                                                <option value="">Manikgonj</option>
+                                                <option value="">Savar</option>
+                                            </optgroup>
+                                            <optgroup label="Chitagong">
+                                                <option value="">Noakhali</option>
+                                                <option value="">Feni</option>
+                                                <option value="">Comilla</option>
+                                                <option value="">Loxmipur</option>
+                                            </optgroup>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <label for="address" class="col-md-3">Address</label>
+                                    <div class="col-md-9">
+                                        <textarea name="address" id="address" class="form-control"></textarea>
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <label for="image" class="col-md-3">Image</label>
+                                    <div class="col-md-9">
+                                        <input type="file" id="image" name="image" accept="image/*">
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <label for="agree" class="col-md-3">Agree</label>
+                                    <div class="col-md-9">
+                                        <label><input type="checkbox" id="agree" name="agree"> I agree with all terms & conditions</label>
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <label class="col-md-3"></label>
+                                    <div class="col-md-9">
+                                        <input type="button" value="Submit" name="btn" class="btn btn-outline-success w-100">
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <table class="table table-bordered table-hover">
+                        <thead>
+                            <tr>
+                                <th>SL No.</th>
+                                <th>Full Name</th>
+                                <th>Email Address</th>
+                                <th>Phone Number</th>
+                                <th>Address</th>
+                                <th>District</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Badhon</td>
+                                <td>Badhon@gmail.com</td>
+                                <td>01887755462</td>
+                                <td>Kathal Bagan</td>
+                                <td>Dhaka</td>
+                                <td>
+                                    <a href="" class="btn btn-success">Edit</a>
+                                    <a href="" class="btn btn-danger">Delete</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>Badhon</td>
+                                <td>Badhon@gmail.com</td>
+                                <td>01887755462</td>
+                                <td>Kathal Bagan</td>
+                                <td>Dhaka</td>
+                                <td>
+                                    <a href="" class="btn btn-success">Edit</a>
+                                    <a href="" class="btn btn-danger">Delete</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>Badhon</td>
+                                <td>Badhon@gmail.com</td>
+                                <td>01887755462</td>
+                                <td>Kathal Bagan</td>
+                                <td>Dhaka</td>
+                                <td>
+                                    <a href="" class="btn btn-success">Edit</a>
+                                    <a href="" class="btn btn-danger">Delete</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>Badhon</td>
+                                <td>Badhon@gmail.com</td>
+                                <td>01887755462</td>
+                                <td>Kathal Bagan</td>
+                                <td>Dhaka</td>
+                                <td>
+                                    <a href="" class="btn btn-success">Edit</a>
+                                    <a href="" class="btn btn-danger">Delete</a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>

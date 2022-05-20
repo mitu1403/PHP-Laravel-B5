@@ -1,0 +1,213 @@
+
+@font-face {
+    src: url("../fonts/Tapestry-Regular.ttf");
+    font-family: bitm;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.col-1{width: 8.33% ;}
+.col-2{width: 16.66%;}
+.col-3{width: 25%;}
+.col-4{width: 33.33%;}
+.col-5{width: 41.66%;}
+.col-6{width: 50%;}
+.col-7{width: 58.33%;}
+.col-8{width: 66.66%;}
+.col-9{width: 75%;}
+.col-10{width: 83.33%;}
+.col-11{width: 91.66%;}
+.col-12{width: 100%;}
+
+[class*='col-']{
+    float: left;
+    border: 1px solid grey;
+}
+.row:after{
+    content: '';
+    clear: both;
+    display: block;
+}
+.container{
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+}
+.h-50 { height: 50px;}
+.h-40 { height: 40px;}
+.h-200{ height: 200px;}
+.h-250{ height: 250px;}
+.h-600{ height: 600px;}
+
+.bg-red{background-color: red;}
+
+nav{
+    background-color: gainsboro;
+    float: left;
+    width: 100%;
+}
+nav ul li{
+    float: left;
+    width: 120px;
+    list-style-type: none;
+    position: relative;
+}
+nav ul li a{
+    display: block; /* li jototuku ache pura jayga ta dhore rakhte parche...so li er pura jayga jure cursor asbe...*/
+    height: 50px;
+    padding: 14px  0px 0px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: bitm;
+    transition: background-color 2s ;
+}
+nav ul li a:hover{
+    background-color: black;
+    color: white;
+}
+.subUl{display: none;}
+.subUl li{
+    width: 200px;
+}
+nav ul li:hover .subUl{
+    background-color: gainsboro;
+    display: block;
+    position: absolute;
+}
+.boxOne{
+    height: 300px;
+    width: 300px;
+    background-color: red;
+    margin: 50px;
+    border-radius: 150px;
+    float: left;
+}
+.boxTwo{
+    height: 300px;
+    width: 300px;
+    background-image: url("../image/0304.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 50px;
+    border-radius: 150px;
+    float: left;
+    transition: 2s;
+    filter: blur(2px);
+}
+.boxTwo:hover{
+    transform: scale(1.2);
+    border-radius: 0px;
+    filter: blur(0px);
+}
+.boxThree{
+    height: 300px;
+    width: 300px;
+    background-color: black;
+    float: left;
+    margin: 50px;
+    transition: 2s;
+}
+.boxThree:hover{
+    transform: rotate(45deg);
+}
+.boxFour{
+    height: 300px;
+    width: 300px;
+    background-color: black;
+    float: left;
+    margin: 50px;
+    transform: rotateX(0deg);
+    transition: 1s;
+}
+.boxFour:hover{
+    transform: rotateX(360deg);
+}
+.boxFive{
+    height: 300px;
+    width: 300px;
+    background-color: black;
+    float: left;
+    margin: 50px;
+    transform: rotateX(0deg);
+    transition: 1s;
+}
+.boxFive:hover{
+    transform: rotateY(360deg);
+}
+.boxSix{
+    height: 300px;
+    width: 300px;
+    background-color: greenyellow;
+    margin: 50px;
+    float: left;
+    transform: skew(0deg);
+    transition: 1s;
+}
+.boxSix:hover{
+    transform: skew(30deg);
+}
+.boxSeven{
+    height: 300px;
+    width: 300px;
+    background-color: greenyellow;
+    margin: 50px;
+    float: left;
+    transform: skewY(0deg);
+    transition: 1s;
+}
+.boxSeven:hover{
+    transform: skewY(30deg);
+}
+.boxEight{
+    height: 300px;
+    width: 200px;
+    background-color: wheat;
+    float: left;
+    margin: 20px;
+    transform: skewY(30deg);
+}
+.boxNine{
+    height: 300px;
+    width: 200px;
+    background-color: wheat;
+    float: left;
+    margin: 20px;
+    transform: skewY(-30deg);
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 550px){
+    [class*='col-']{
+        width: 100%;
+    }
+}
+@media screen and (min-width: 551px) and (max-width: 800px){
+    .col-m1{width: 8.33% ;}
+    .col-m2{width: 16.66%;}
+    .col-m3{width: 25%;}
+    .col-m4{width: 33.33%;}
+    .col-m5{width: 41.66%;}
+    .col-m6{width: 50%;}
+    .col-m7{width: 58.33%;}
+    .col-m8{width: 66.66%;}
+    .col-m9{width: 75%;}
+    .col-m10{width: 83.33%;}
+    .col-m11{width: 91.66%;}
+    .col-m12{width: 100%;}
+
+    .md-none{display: none;}
+
+}
